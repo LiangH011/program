@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<header class="header">
+			<div class="top">
+				<a href="index.html" class="logo"><img src="images/logo.png" /> </a>
+				<span class="welcome"></span>
+				<a href="#" class="hyqy">会员权益</a>
+			</div>
+		</header>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="main">
+				<p class="regi-title">购物返利、薅羊毛、找白菜、秒杀汇总，就来一起惠吧！让您尽享低价购物乐趣！</p>
+				<div class="regi-left">
+					<form action="index.html"  id="regi-form">
+						<div class="regi-name">
+							<span>用户名：</span>
+							<div class="txt">
+								<i class="name-ico regi-icon"></i>
+								<input type="text" value="" name="username" placeholder="请输入用户名，长度3-15个字符" class="userName" />
+								<p class="erroTip">请输入3-15个字符的用户名！</p>
+							</div>
+							
+						</div>
+						
+						<div class="regi-pwd">
+							<span>密码：</span>
+							<div class="txt">
+								<i class="pwd-ico regi-icon"></i>
+								<input type="password" value="" name="userpwd" placeholder="请输入登录密码，长度6-20个字符" class="userPwd" />
+								<p class="erroTip">请输入6-20个字符的复杂密码！</p>
+							</div>
+						</div>
+						
+						<div class="regi-repwd">
+							<span>确认密码：</span>
+							<div class="txt">
+								<i class="pwd-ico regi-icon"></i>
+								<input type="password" value="" name="repwd" placeholder="请再次输入登录密码！" class="rePwd" />
+								<p class="erroTip">您两次输入的密码不一致！</p>
+							</div>
+						</div>
+						
+						<div class="regi-qq">
+							<span>QQ号码：</span>
+							<div class="txt">
+								<i class="qq-ico regi-icon"></i>
+								<input type="text" value="" name="qqnum" placeholder="请输入常用QQ号码" class="qqNum" />
+								<p class="erroTip">请输入正确的QQ号码！</p>
+							</div>
+						</div>
+						
+						<div class="regi-mail">
+							<span>常用邮箱：</span>
+							<div class="txt">
+								<i class="mail-ico regi-icon"></i>
+								<input type="text" value="" name="mail" placeholder="请输入常用邮箱，用于找回密码、接受通知等" class="mail" />
+								<p class="erroTip">请输入正确的邮箱的地址！</p>
+							</div>
+						</div>
+						
+						<div class="regi-yzm">
+							<span>验证码：</span>
+							<div class="yzmtxt">
+								<i class="yzm-ico regi-icon"></i>
+								<input type="text" value="" name="yzm" placeholder="请输入验证码！" class="yzmInput" />
+								<p class="erroTip">请输入正确的验证码！</p>
+							</div>
+							<span class="yzm">
+								<b >1211</b>
+								看不清？点击验证码刷新
+							</span>
+						</div>
+						
+						<div class="protocol">
+							<input type="checkbox" checked="checked" name="protocol" class="agreen-prot"/>同意并接受
+							<a href="#"> 《一起惠返利网用户使用协议》 </a>
+						</div>
+						
+						<input type="submit" value="立即注册" class="register-btn" />
+						
+					</form>
+					
+				</div>
+				
+				
+				
+				
+				<div class="regi-right">
+					<p>已有账号？马上去</p>
+					<a href="login.html" class="bzzh">本站账号登录</a>
+					<a href="#" class="qqzh">QQ账号登录</a>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		<!--内容结束-->
+		
+		<!--引入底部-->
+		<footer id="bottom">
+			<script >
+				$(function(){
+					$("#bottom").load("footer.html");
+				})
+			</script>
+			
+		</footer>
+	</body>
+</html>

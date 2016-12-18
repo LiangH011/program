@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<header class="header">
+			<div class="top">
+				<a href="index.html" class="logo"><img src="images/logo.png" /> </a>
+				<span class="welcome"></span>
+				<a href="#" class="hyqy">会员权益</a>
+			</div>
+		</header>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="main">
+				<div class="login">
+					<div class="login-title">
+						<h1>惠友登录</h1>
+						<a href="register.html" class="register">注册会员</a>
+					</div>
+					<p class="tip">友情提示：定期修改登录密码，可以保护帐号安全哦！</p>
+					<form action="index.html" id="loginForm">
+						<div class="name">
+							<p class="nameTip">请输入用户名/邮箱账号</p>
+							<i></i>
+							<input type="text" value="" placeholder="请输入用户名/邮箱账号" class="userName" />
+						</div>
+						
+						<div class="pwd">
+							<p class="pwdTip">请输入登录密码</p>
+							<i></i>
+							<input type="password" value="" placeholder="请输入登录密码" class="userPwd" />
+						</div>
+						
+						<div class="autoLogin">
+							<label><input type="checkbox" checked="checked" name="autologin"  class="zddl"/>自动登录</label>
+							<a href="#" class="forgetPwd">忘记密码</a>
+						</div>
+						
+						<input type="submit" value="提  交" class="login-sub" />
+						
+						<div class="other-login">
+							<p>使用合作网站帐号登录：</p>
+							<a href="#" class="qq-ico"></a>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--内容结束-->
+		
+		<!--引入底部-->
+		<footer id="bottom">
+			<script >
+				$(function(){
+					$("#bottom").load("footer.html");
+				})
+			</script>
+			
+		</footer>
+		
+		
+	</body>
+</html>

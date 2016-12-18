@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>淘宝返利</title>
+		<link rel="stylesheet" type="text/css" href="css/tbRebate.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--回到顶部开始-->
+		<div id="comm-service" title="在线客服"></div>
+		<div id="comm-gotop" title="回到顶部"></div>
+		<!--回到顶部结束-->
+		
+		<!--头部开始-->
+		<header id="header">
+			<!--轮播开始-->
+			<div id="comm-carousel">
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<div class="carou-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="close">&times;</div>
+			</div>
+			<!--轮播结束-->
+			
+			<!--引入导航-->
+			<div id="headerNav">
+				<script>
+					$(function(){
+						$("#headerNav").load("nav.html");
+					})
+				</script>
+			</div>
+			
+			<!--导航结束-->
+			
+			<!--logo和搜索部分开始-->
+			<div class="logoBar">
+				<div class="logo">
+					<a href="index.html" class="logoImg"><img src="images/logo.png" /></a> 
+					<a href="tbRebate.html" class="tbImg"><img src="images/taobao_logo.png"/></a>
+				</div>
+				<div class="top-searchBox">
+					<form action="" id="top-form">
+						<input type="text" placeholder="请输入商城商品地址或淘宝商品名称开始购物！"  class="top-Input"/>
+						<input type="button" class="top-btnSub" />
+					</form>
+				</div>
+			</div>
+			<!--logo和搜索部分结束-->
+			
+			<!--导航菜单开始-->
+			<div class="header-menu">
+				<div class="headerMenu-wrap">
+					<ul class="headerMenu-list1">
+						<li><a href="#" style="color:#fff;background: #FF8400;">宝贝返利</a></li>
+					</ul>
+					<div class="headerMenu-list2">
+						<img src="images/taobao_new.jpg" style="width: 171px;height: 42px;"/>
+					</div>
+				</div>
+			</div>
+			<!--导航菜单结束-->
+			
+		</header>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="tbSearch">
+				<form action="" method="post" id="tb-form">
+					<div>
+						<i></i>
+						<input type="text" placeholder="输入任意淘宝/天猫宝贝标题开始购物拿返利！" class="tb-input"/>
+						<input type="button" class="tb-btn"/>
+						<div class="fond">找宝贝<i></i> </div>
+					</div>
+				</form>
+			</div>
+			<div class="step1"></div>
+			<div class="step2"></div>
+			<div class="step3"></div>
+			<div class="step4"></div>
+		</div>
+		
+		<!--内容结束-->
+		<!--引入底部-->
+		<footer id="bottom">
+			<script >
+				$(function(){
+					$("#bottom").load("footer.html");
+				})
+			</script>
+			
+		</footer>
+		
+	</body>
+</html>

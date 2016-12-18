@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body >
+		<div data-role="page" id="index" class="page">
+			<!--头部开始-->
+			<div data-role="none"  class="top">
+				<div data-role="none" class="index-logo"></div>
+				<div data-role="none"  class="top-search">输入商城商品地址或京东商品编码</div>
+				<div data-role="none"  class="top-news"><i class="news-icon"></i><span>消息</span></div>
+			</div>
+			<!--头部结束-->
+			
+			<!--搜索框提示开始-->
+			<div class="topTip-main">
+				<div class="topTip-wrap">
+					<form action="" id="index-form">
+						<input type="text" data-role="none" placeholder="搜索京东商品编码、关键字、链接和其他商城链接" value="" class="topSearch-input"/>
+						<input type="submit" data-role="none" value="提交" class="top-btn"/>
+					</form>
+					
+					<div class="topTip-info">
+						<p>1、支持京东【商品关键字】、【商品编号】、【商品链接】搜索，其他商城只支持链接。</p>
+						<p>2、搜索淘宝天猫商品，请去淘宝返利，使用标题或关键字搜索</p>
+					</div>
+				</div>
+				<i></i>
+			</div>
+			<!--搜索框提示结束-->
+			 
+			 <!--内容开始-->
+			 <div data-role="none" class="content">
+				<!--轮播开始-->
+				<div class="banner">
+					<div class="bannerImg">
+						<a href="#" data-role="none" data-ajax="false" ><img src="images/index-banner1.jpg" /> </a>
+						<a href="#" data-role="none" data-ajax="false"><img src="images/index-banner2.jpg" /> </a>
+						<a href="#" data-role="none" data-ajax="false"><img src="images/index-banner3.jpg" /> </a>
+					</div>
+					<div class="banner-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<!--轮播结束-->
+				 
+				<!--功能模块分类开始-->
+				<ul data-role = "none" class="gongneneg">
+					<li>
+						<a href="mallRebate.html" data-role="none" data-ajax="false">
+							<span class="gn-img scfl"></span>
+							<span class="gn-name">商城返利</span>
+						</a>
+					</li>
+					<li>
+						<a href="tbRebate.html" data-role="none" data-ajax="false">
+							<span class="gn-img tbfl"></span>
+							<span class="gn-name">淘宝返利</span>
+						</a>
+					</li>
+					<li>
+						<a href="fanli.html" data-role="none" data-ajax="false">
+							<span class="gn-img cjfl"></span>
+							<span class="gn-name">超级返利</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gn-img bzzx"></span>
+							<span class="gn-name">帮助中心</span>
+						</a>
+					</li>
+					<li>
+						<a href="baoliao.html" data-role="none" data-ajax="false">
+							<span class="gn-img yhbl"></span>
+							<span class="gn-name">优惠爆料</span>
+							<i class="gn-tip">薅羊毛</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gn-img czzx"></span>
+							<span class="gn-name">充值中心</span>
+							<i class="gn-tip">9折</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gn-img ddgl"></span>
+							<span class="gn-name">订单管理</span>
+						</a>
+					</li>
+					<li>
+						<a href="user.html" data-role="none" data-ajax="false">
+							<span class="gn-img hyzx"></span>
+							<span class="gn-name">会员中心</span>
+						</a>
+					</li>
+				</ul>
+				<!--功能模块分类结束-->
+				
+				<!--京东入口分类开始-->
+				<ul class="jdEntry">
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="jdEntry-img ydd"></span>
+							<span class="jdEntry-name">京东移动端入口</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="jdEntry-img wxd"></span>
+							<span class="jdEntry-name">京东微信端入口</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="jdEntry-img sqd"></span>
+							<span class="jdEntry-name">京东手Q端入口</span>
+						</a>
+					</li>
+				</ul>
+				<!--京东入口分类结束-->
+				
+				<!--频道分类开始-->
+				<ul class="flpd">
+					<li><a href="#" class="fl"></a></li>
+					<li><a href="#" class="pd"></a></li>
+				</ul>				
+				<!--频道分类结束-->
+				
+				<!--得到慧币分类开始-->
+				<ul class="gethuibi">
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gethuibi-img qiandao"></span>
+							<span class="gethuibi-name">签到得慧币</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gethuibi-img yaoqing"></span>
+							<span class="gethuibi-name">邀请好友奖励50元</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-role="none" data-ajax="false">
+							<span class="gethuibi-img tixian"></span>
+							<span class="gethuibi-name">提现奖励红包</span>
+						</a>
+					</li>
+				</ul>
+				<!--得到慧币分类结束-->
+				
+				<!--优惠分类开始-->
+				<div class="youhui-classify">
+					<div class="youhui-left">
+						<a href="#" data-role="none" data-ajax="false">
+							<p class="haoyangmao">优惠爆料-薅羊毛</p>
+							<p class="hym-info">
+								汇集全网白菜价、神价格、<br/>
+								手慢无、抢购、秒杀等<br/>
+								优惠商品爆料信息
+							</p>
+						</a>
+					</div>
+					<ul class="youhui-right">
+						<li>
+							<a href="#" data-role="none" data-ajax="fasle">
+								<p class="yhfl-title">白菜汇</p>
+								<p class="yhfl-info">9.9元白菜爆料汇总</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="fasle">
+								<p class="yhfl-title">优质爆料</p>
+								<p class="yhfl-info">官方精选优质爆料</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="fasle">
+								<p class="yhfl-title">秒杀抢购</p>
+								<p class="yhfl-info">秒杀/抢购及时爆料</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!--优惠分类结束-->
+				
+				<!--今日值得买开始-->
+				<div class="zhidemai">
+					<div class="zhidemai-title">
+						今日值得买
+						<a href="#" data-role="none" data-ajax="false" class="zdm-more"></a>
+					</div>	
+					<ul class="product-list">
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img1.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">200-199飞机票</span>
+									<span class="pro-kq">10点开抢</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 09:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img2.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">华为 Mate 9 Pro 4GB+64GB版 琥珀金 移动联通电信4G手机 双卡双待</span>
+									<span class="pro-kq">华为再发力！</span>
+									<span class="pro-jiage">
+										￥4699.00
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img3.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">华为12.17手机活动，优惠券提前领部分手机1000-50优惠券</span>
+									<span class="pro-kq">17号使用，需要的朋友可以领取</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img4.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">NIKE男鞋耐克女鞋轻跑鞋ROSHE RUN 跑步鞋休闲鞋 伦敦奥运版潮流慢跑鞋 运动鞋 耐克情侣跑步鞋(511881-020黑白)</span>
+									<span class="pro-kq">超低价198</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 10:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img5.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">下午1点：米家 智能LED台灯</span>
+									<span class="pro-kq">84.5元</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">小米|12-15 11:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img6.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">Apple iPhone 7 (A1660) 32G 玫瑰金色 移动联通电信4G手机</span>
+									<span class="pro-kq">京东特价，历史好价</span>
+									<span class="pro-jiage">
+										￥4999.00
+										<i class="pro-from">京东|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img7.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">洁柔 C&S系列 3层卷纸 160g*27卷</span>
+									<span class="pro-kq">39.9元，可满100-15</span>
+									<span class="pro-jiage">
+										￥39.90
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img8.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">加多宝凉茶 250ml*16盒</span>
+									<span class="pro-kq">手机端好价</span>
+									<span class="pro-jiage">
+										￥12.12
+										<i class="pro-from">苏宁易购|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img9.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">飞狮 FA-02超强碱性电池家庭装 5号*16+7号*16+9V*2+2号转换器*2+1号转换器*2+测电器+收纳盒</span>
+									<span class="pro-kq">39.9元</span>
+									<span class="pro-jiage">
+										￥12.12
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img10.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">HERSHEYS 好时 牛奶巧克力礼盒 蓝色妖姬款</span>
+									<span class="pro-kq">9.9元包邮</span>
+									<span class="pro-jiage">
+										￥9.90
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img1.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">200-199飞机票</span>
+									<span class="pro-kq">10点开抢</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 09:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img2.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">华为 Mate 9 Pro 4GB+64GB版 琥珀金 移动联通电信4G手机 双卡双待</span>
+									<span class="pro-kq">华为再发力！</span>
+									<span class="pro-jiage">
+										￥4699.00
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img3.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">华为12.17手机活动，优惠券提前领部分手机1000-50优惠券</span>
+									<span class="pro-kq">17号使用，需要的朋友可以领取</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img4.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">NIKE男鞋耐克女鞋轻跑鞋ROSHE RUN 跑步鞋休闲鞋 伦敦奥运版潮流慢跑鞋 运动鞋 耐克情侣跑步鞋(511881-020黑白)</span>
+									<span class="pro-kq">超低价198</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">京东商城|12-15 10:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img5.png"/></div>
+								<div class="pro-info">
+									<span class="pro-name">下午1点：米家 智能LED台灯</span>
+									<span class="pro-kq">84.5元</span>
+									<span class="pro-jiage">
+										￥0.00
+										<i class="pro-from">小米|12-15 11:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img6.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">Apple iPhone 7 (A1660) 32G 玫瑰金色 移动联通电信4G手机</span>
+									<span class="pro-kq">京东特价，历史好价</span>
+									<span class="pro-jiage">
+										￥4999.00
+										<i class="pro-from">京东|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img7.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">洁柔 C&S系列 3层卷纸 160g*27卷</span>
+									<span class="pro-kq">39.9元，可满100-15</span>
+									<span class="pro-jiage">
+										￥39.90
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img8.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">加多宝凉茶 250ml*16盒</span>
+									<span class="pro-kq">手机端好价</span>
+									<span class="pro-jiage">
+										￥12.12
+										<i class="pro-from">苏宁易购|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img9.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">飞狮 FA-02超强碱性电池家庭装 5号*16+7号*16+9V*2+2号转换器*2+1号转换器*2+测电器+收纳盒</span>
+									<span class="pro-kq">39.9元</span>
+									<span class="pro-jiage">
+										￥12.12
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-role="none" data-ajax="false">
+								<div class="pro-img"><img src="images/zdm-img10.jpg"/></div>
+								<div class="pro-info">
+									<span class="pro-name">HERSHEYS 好时 牛奶巧克力礼盒 蓝色妖姬款</span>
+									<span class="pro-kq">9.9元包邮</span>
+									<span class="pro-jiage">
+										￥9.90
+										<i class="pro-from">京东商城|12-15 00:33</i>
+									</span>
+								</div>
+							</a>
+						</li>
+						
+					</ul>
+					
+				</div>
+				
+				<!--今日值得买结束-->
+			</div>
+			<!--内容结束-->
+			
+			<!--底部开始-->
+			<ul  class="bottom" >
+				<li>
+					<a href="index.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon shouye-ico" style="color: #FF3451;"></i>
+						<span class="bottom-name" style="color: #FF3451;">首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="mallRebate.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon scfl-ico"></i>
+						<span class="bottom-name">商城返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="baoliao.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon yhbl-ico"></i>
+						<span class="bottom-name">优惠爆料</span>
+					</a>
+				</li>
+				<li>
+					<a href="fanli.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon cjfl-ico"></i>
+						<span class="bottom-name">超级返利</span>
+					</a>
+				</li>
+				<li>
+					<a href="user.html" data-role="none" data-ajax="false">
+						<i class="bottom-icon wode-ico"></i>
+						<span class="bottom-name">我的</span>
+					</a>
+				</li>
+			</ul>
+			<!--底部结束-->
+		</div>
+		
+	</body>
+</html>

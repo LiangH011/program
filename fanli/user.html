@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员中心</title>
+		<link rel="stylesheet" type="text/css" href="css/user.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body id="user">
+		<!--回到顶部开始-->
+		<div id="comm-service" title="在线客服"></div>
+		<div id="comm-gotop" title="回到顶部"></div>
+		<!--回到顶部结束-->
+		
+		<!--头部开始-->
+		<header id="header">
+			<!--轮播开始-->
+			<div id="comm-carousel">
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<div class="carou-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="close">&times;</div>
+			</div>
+			<!--轮播结束-->
+			
+			<!--引入导航-->
+			<div id="headerNav">
+				<script>
+					$(function(){
+						$("#headerNav").load("nav.html");
+					})
+				</script>
+			</div>
+			
+			<!--导航结束-->
+			
+			<!--logo和搜索部分开始-->
+			<div class="logoBar">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" /></a> </div>
+				<div class="top-searchBox">
+					<form action="" id="top-form">
+						<input type="text" placeholder="请输入商城商品地址或淘宝商品名称开始购物！"  class="top-Input"/>
+						<input type="button" class="top-btnSub" />
+					</form>
+				</div>
+			</div>
+			<!--logo和搜索部分结束-->
+			
+			<!--导航菜单开始-->
+			<div class="header-menu">
+				<div class="headerMenu-wrap">
+					<ul class="headerMenu-list1">
+						<li><a href="index.html" >首页</a></li>
+						<li><a href="mallRebate.html">商城返利</a></li>
+						<li><a href="tbRebate.html">淘宝返利</a></li>
+						<li><a href="baoliao.html">爆料平台</a></li>
+						<li><a href="super.html">超级返</a></li>
+						<li><a href="zhushou.html">购物助手</a></li>
+						<li><a href="app.html">一起惠APP<img src="images/header-newIco.gif"/></a></li>
+						<li><a href="user.html"style="color:#fff;background: #FF8400;">会员中心</a></li>
+					</ul>
+					<div class="headerMenu-list2">
+						<img src="images/headerMenu-1.jpg"/>
+						<a href="#"><img src="images/headerMenu-2.gif"/></a>
+					</div>
+				</div>
+			</div>
+			<!--导航菜单结束-->
+			
+		</header>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="mian">
+				<!--左边-->
+				<div class="subnavLeft">
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico hy-ico"></i>
+							个人信息
+							<i class="list-ico"></i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#" style="color:#ff6600; background: url(images/u-n-dian-on.png) no-repeat 20px center;">会员中心</a></li>
+							<li><a href="#">我的资料</a></li>
+							<li><a href="#">账户安全</a></li>
+							<li><a href="#">头像设置</a></li>
+							<li><a href="#">提现设置</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico zc-ico"></i>
+							我的资产
+							<i class="list-ico"></i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#">申请提现</a></li>
+							<li><a href="#">余额兑换</a></li>
+							<li><a href="#">提现记录</a></li>
+							<li><a href="#">兑换记录</a></li>
+							<li><a href="#">收入明细</a></li>
+							<li><a href="#">退款明细</a></li>
+							<li><a href="#">扣除明细</a></li>
+							<li><a href="#">我的优惠券</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico ddgl-ico"></i>
+							订单管理
+							<i class="list-ico"></i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#">商城订单</a></li>
+							<li><a href="#">超反订单</a></li>
+							<li><a href="#">爆料订单</a></li>
+							<li><a href="#">淘宝订单</a></li>
+							<li><a href="#">订单找回</a></li>
+							<li><a href="#">订单回收站</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico znx-ico"></i>
+							站内信（<b>0</b>）
+							<i class="list-ico"></i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#">收信箱（<i>0</i>）</a></li>
+							<li><a href="#">发信箱</a></li>
+							<li><a href="#">联系客服</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico ddfk-ico"></i>
+							订单反馈
+							<i class="list-ico"></i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#">订单跟踪</a></li>
+							<li><a href="#">订单结算</a></li>
+							<li><a href="#">反馈结果</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<p class="left-title">
+							<i class="user-ico yq-ico"></i>
+							邀请好友
+							<i class="jl-ico">奖励50元</i>
+						</p>
+						<ul class="leftnav-list">
+							<li><a href="#">我要邀请</a></li>
+							<li><a href="#">获得奖励</a></li>
+							<li><a href="#">完成奖励</a></li>
+							<li><a href="#">奖励排名</a></li>
+						</ul>
+					</div>
+					
+					<div class="leftNav">
+						<a href="#" class="left-title">
+							<i class="user-ico tg-ico"></i>
+							我要推广
+						</a>
+					</div>
+					
+				</div>
+				
+				<!--右边-->
+				<div class="subnavRight">
+					<!--个人信息-->
+					<div class="subRtop">
+						<div class="user-pic">
+							<img src="images/noavatar_middle.jpg" class="uImg" />
+							<p class="u-name">笑笑</p>
+						</div>
+						
+						<div class="user-info">
+							<p>成长值：<i>0</i>点（一起惠返利获得）会员权益 </p>
+							<p>普通会员（0）<em></em>点黄金会员（100）</p>
+							<p>您还差&nbsp;<i>100</i>&nbsp;个成长值就可以升级&nbsp;
+								<i>黄金会员</i>&nbsp;&nbsp;&nbsp;
+								<b>如何获得成长值？
+									<span class="rhhl">每成功返利一单获得1点成长值！</span>
+								</b>
+							</p>
+							<span>您上一次登录时间：2016-12-08 11:17:16</span>
+						</div>
+						
+						<ul class="safe">
+							<li>
+								<a href="#" class="safe-type"></a>
+								<p class="safe-name">手机</p>
+								<p class="tip">请验证您的手机，提高您的账户安全！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type safetype-ok">
+								</a>
+								<p class="safe-name safe-ok">邮箱</p>
+								<p class="tip">邮箱已验证！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type safetype-ok">
+									
+								</a>
+								<p class="safe-name safe-ok">密码</p>
+								<p class="tip">建议您定期修改密码，保障您的账户安全！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type safetype-ok">
+									
+								</a>
+								<p class="safe-name safe-ok">头像</p>
+								<p class="tip">您已设置头像，您也可以修改头像！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type ">
+									
+								</a>
+								<p class="safe-name">支付密码</p>
+								<p class="tip">为了您账户的安全，请设置您的支付密码！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type ">
+									
+								</a>
+								<p class="safe-name">支付宝</p>
+								<p class="tip">请设置您的支付宝帐号，方便提现使用！</p>
+							</li>
+							<li>
+								<a href="#" class="safe-type">
+									
+								</a>
+								<p class="safe-name">银行卡</p>
+								<p class="tip">请设置您的银行卡帐号，方便提现使用！</p>
+							</li>
+						</ul>
+						
+					</div>
+					
+					<!--财产统计-->
+					<div class="property">
+						<div class="staticLeft">
+							<p class="property-title">
+								<i></i>
+								财产统计
+							</p>
+							<ul class="prope-list">
+								<li>
+									<div class="li-left">
+										<i class="liico1"></i>
+										<span>账户余额：<em>0元</em> </span>
+									</div>
+									
+									<div class="li-right">
+										<a href="#" class="m-ico">
+											<span class="tip">余额兑换成惠币</span>
+										</a>
+										<a href="#"  class="jin-ico">
+											<span class="tip">余额快捷提现</span>
+										</a>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico1"></i>
+										<span>已提现金额：<em>0.00元</em> </span>
+									</div>
+									
+									<div class="li-right">
+										<p class="yjtx">0.00元
+											<a href="#" class="hb-ico">
+											
+												<span class="tip">提现红包奖励</span>
+											</a>
+										</p>
+										
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico1"></i>
+										<span>总消费额：<em>0元</em> </span>
+									</div>
+									
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico1"></i>
+										<span>返利金额：<em>0元</em> </span>
+									</div>
+									
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico2"></i>
+										<span>账户惠币：<em>1个</em> </span>
+									</div>
+									
+									<div class="li-right">
+										<a href="#" class="d-ico">
+											<span class="tip">惠币兑换商品</span>
+										</a>
+										<a href="#"  class="jin-ico">
+											<span class="tip">余额快捷提现</span>
+										</a>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico3"></i>
+										<span>账户积分：<em>0点</em> </span>
+									</div>
+									
+									<div class="li-right">
+										<a href="#" class="d-ico">
+											<span class="tip">惠币兑换商品</span>
+										</a>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico4"></i>
+										<span>爆料总数：<em>0条</em> </span>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico4"></i>
+										<span>优质爆料：<em>0条</em> </span>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico4"></i>
+										<span>爆料订单：<em>0条</em> </span>
+									</div>
+								</li>
+								
+								<li>
+									<div class="li-left">
+										<i class="liico4"></i>
+										<span>爆料收益：<em>0元</em> </span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="staticRight">
+							<p class="property-title">
+								<i></i>
+								签到得惠币
+								<a href="#"  class="qdgz">
+									<i class="qd-ico"></i>
+									签到新规则
+									<span class="lxqd-tip">连续签到，获得更高奖励！</span>
+								</a>
+								<span class="qd-right">
+									<i class="qdc"></i>
+									<i class="qd-btn">
+										<em class="qd-tip">签到</em>
+									</i>
+								</span>
+							</p>
+							<div class="qd-content"></div>
+							<ul class="qd-list">
+								<li>
+									<span class="uname">笑笑</span>
+									<span class="qdMess">您已经连续签到<i>天</i>获得<b>2</b>惠币 </span>
+									<span class="qd-time">2016-12-09 08:15:56</span>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+					
+					<!--快捷导航-->
+					<div class="kjdh">
+						<p class="kjdh-title">
+							<i></i>
+							快捷导航
+						</p>
+						<ul class="kjdh-list">
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_100.png" /></i>
+									<p class="kjdh-name">商城订单</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_100.png" /></i>
+									<p class="kjdh-name">淘宝订单</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_100.png" /></i>
+									<p class="kjdh-name">爆料订单</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_100.png" /></i>
+									<p class="kjdh-name">丢单反馈</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_98.png" /></i>
+									<p class="kjdh-name">我的优惠券</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_95.png" /></i>
+									<p class="kjdh-name">余额提现</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_89.png" /></i>
+									<p class="kjdh-name">商品兑换</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_92.png" /></i>
+									<p class="kjdh-name">兑换集分宝</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_83.png" /></i>
+									<p class="kjdh-name">邀请好友</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_86.png" /></i>
+									<p class="kjdh-name">我要推广</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_113.png" /></i>
+									<p class="kjdh-name">站内信</p>
+								</a>
+							</li>
+							<li >
+								<a href="#">
+									<i class="kjdh-img"><img src="images/user_110.png" /></i>
+									<p class="kjdh-name">我要爆料</p>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+				
+					<!--帮助中心-->
+					<div class="help">
+						<p class="help-title">
+							<i></i>
+							帮助中心
+							<a href="#" class="help-more"></a>
+						</p>
+						<ul class="help-list">
+							<li><a href="#">一起惠各大商城返利教程</a></li>
+							<li><a href="#">一起惠淘宝返利教程</a></li>
+							<li><a href="#">一起惠各大商城结算快讯</a></li>
+							<li><a href="#">一起惠价格监控如何使用</a></li>
+							<li><a href="#">一起惠京东手Q、微信返利教程</a></li>
+							<li><a href="#">一起惠爆料平台如何教程和规则</a></li>
+							<li><a href="#">一起惠返利使用常见问题</a></li>
+							<li><a href="#">会员常见新手指导操作教程</a></li>
+							<li><a href="#">如何爆料推广获得无限制返利</a></li>
+							<li><a href="#">什么是返利劫持，如何规避与投诉？</a></li>
+							<li><a href="#">如何通过一起惠推广获得返利</a></li>
+							<li><a href="#">京东手Q返利详细操作步骤和动画演示</a></li>
+						</ul>
+					</div>
+				
+				
+				</div>
+			</div>
+		</div>
+		<!--内容结束-->
+		
+		<div style="clear: both;"></div>
+		<!--引入底部-->
+		<footer id="bottom">
+			<script >
+				$(function(){
+					$("#bottom").load("footer.html");
+				})
+			</script>
+			
+		</footer>
+		
+		
+	</body>
+</html>

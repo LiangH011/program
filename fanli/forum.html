@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>返利网论坛</title>
+		<link rel="stylesheet" type="text/css" href="css/forum.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav id="navbar">
+			<div class="nav-wrap">
+				<ul class="navLeft">
+					<li><a href="forum.html">返利首页</a></li>
+					<li><a href="#">商城返利</a></li>
+					<li><a href="#">淘宝返利</a></li>
+					<li><a href="#">拍拍返利</a></li>
+					<li><a href="#">最新爆料</a></li>
+					<li><a href="#">收藏本站</a></li>
+				</ul>
+				
+				<ul class="navRight">
+					<li><a href="login.html">用户登录</a></li>
+					<li><a href="register.html">账号注册</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--导航结束-->
+		<div style="clear: both;"></div>
+		
+		<!--回到顶部开始-->
+		<div id="bbs-gotop"></div>
+		<!--回到顶部结束-->
+		
+		
+		<!--头部开始-->
+		<div class="top">
+			<!--搜索栏-->
+			<div class="top-wrap">
+				<a href="forum.html" class="logo"> </a>
+				<div class="search-wrap">
+					<form action="" id="forum-form">
+						<input type="text" class="search-input" placeholder="请输入搜索内容"/>
+						<div class="sel-type">
+							贴子
+							<ul class="sel-list">
+								<li>文章</li>
+								<li>帖子</li>
+								<li>用户</li>
+							</ul>
+						</div>
+						<input type="button" class="sub-btn" value="搜索"/>
+						
+					</form>
+				</div>
+				<img src="images/bbs-top-zdm_03.jpg" class="zdm-logo"/>
+				
+			</div>
+			
+			<!--导航-->
+			<div class="topNav">
+				<ul class="topNav-content">
+					<li style="background:#E46703;"><a href="#">门户首页</a></li>
+					<li><a href="#">返利论坛</a></li>
+					<li>
+						<a href="#">白菜特价</a>
+						<div class="subli">
+							<a href="#">淘宝专栏</a>
+							<a href="#">拍拍专栏</a>
+							<a href="#">商城专栏</a>
+							<a href="#">商城活动</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">真实晒单</a>
+						<div class="subli">
+							<a href="#">实物晒单</a>
+							<a href="#">真人晒单</a>
+						</div>
+					</li>
+					<li><a href="#">每日签到</a></li>
+					<li><a href="#">排行榜</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="main">
+				<!--轮播-->
+				<div id="bbs-banner">
+					<ul class="bannerImg">
+						<li><a href="#"><img src="images/bbs-img1.jpg" /></a></li>
+						<li><a href="#"><img src="images/bbs-img2.jpg" /></a></li>
+						<li><a href="#"><img src="images/bbs-img3.jpg" /></a></li>
+					</ul>
+					<div class="bbs-icon">
+						<span>国美商城跨年盛典之大牌贺岁5折起</span>
+						<span>苏宁狂欢盛典，想购就购</span>
+						<span>年终大促220元红包来就送</span>
+					</div>
+					<div class="bbs-arrow">
+						<span class="arrowLeft"></span>
+						<span class="arrowRight"></span>
+					</div>
+					
+				</div>
+				
+				<!--商城分类-->
+				<ul class="mall-classify">
+					<li><a href="#"><img src="images/scfl.jpg"/></a></li>
+					<li><a href="#"><img src="images/tbtm.jpg"/></a></li>
+					<li><a href="#"><img src="images/ppfl.jpg"/></a></li>
+					<li><a href="#"><img src="images/yzbl.jpg"/></a></li>
+				</ul>
+				
+				<!--专栏-->
+				<ul class="zhuanlan">
+					<li>商城分类导航</li>
+					<li><a href="#">淘宝专栏</a></li>
+					<li><a href="#">拍拍专栏</a></li>
+					<li><a href="#">商城专栏</a></li>
+					<li><a href="#">优惠活动</a></li>
+				</ul>
+				
+				<!--产品列表-->
+				<ul class="goods">
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro1.jpg" />
+						</a>
+						<p class="pro-name">这个价格 绝对值，买过的都说好</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>59.9 </span>
+							<span class="yuanjia">￥148 </span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro2.jpg" />
+						</a>
+						<p class="pro-name">新店开业，活动多多进店购买就送</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>59.9 </span>
+							<span class="yuanjia">￥148 </span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro3.gif" />
+						</a>
+						<p class="pro-name">新店开业活动多多</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> </span>
+							<span class="yuanjia">￥ </span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro4.jpg" />
+						</a>
+						<p class="pro-name">斗篷款雪中飞羽绒服女短款马甲轻</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 188</span>
+							<span class="yuanjia">￥ 399</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro5.jpg" />
+						</a>
+						<p class="pro-name">淘宝爆款防臭男袜子 礼盒装高档男</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 14</span>
+							<span class="yuanjia">￥ 38</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro6.jpg" />
+						</a>
+						<p class="pro-name">润朴台湾料电教木茶盘80*50*5厂</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 1580</span>
+							<span class="yuanjia">￥ 1680</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro7.jpg" />
+						</a>
+						<p class="pro-name">大嘴猴基本t恤，简洁大方，百搭，</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 39.5</span>
+							<span class="yuanjia">￥ 49.9</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro8.jpg" />
+						</a>
+						<p class="pro-name">2015年春装新款男装中长款夹克翻领</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 368.28</span>
+							<span class="yuanjia">￥ 1430</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro9.jpg" />
+						</a>
+						<p class="pro-name">瑞士BINGER宾格手表抽象男士男表</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 499</span>
+							<span class="yuanjia">￥ 1996</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro10.jpg" />
+						</a>
+						<p class="pro-name">瑞士BINGER宾格手表抽象男士男表</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 488</span>
+							<span class="yuanjia">￥ 1952</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro11.jpg" />
+						</a>
+						<p class="pro-name">汉客品质精选户外旅行箱包 万向轮</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 299</span>
+							<span class="yuanjia">￥ 598</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro12.jpg" />
+						</a>
+						<p class="pro-name">丹爵拉杆箱万向轮男女行李箱子旅行</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 229</span>
+							<span class="yuanjia">￥ 458</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro13.jpg" />
+						</a>
+						<p class="pro-name">男装春秋装外套 夹克立领 2014</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 158</span>
+							<span class="yuanjia">￥ 299</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro14.jpg" />
+						</a>
+						<p class="pro-name">2015春款新品 韩版修身男装夹克</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i> 98</span>
+							<span class="yuanjia">￥ 258</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro15.jpg" />
+						</a>
+						<p class="pro-name">2015春装新款女装韩版显瘦针织连衣裙</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>119</span>
+							<span class="yuanjia">￥ 238</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro16.jpg" />
+						</a>
+						<p class="pro-name">2015夏装新款女装 韩版时尚女装 蝙蝠袖</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>29.9</span>
+							<span class="yuanjia">￥ 59.8</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro17.jpg" />
+						</a>
+						<p class="pro-name">2015夏装新款女装显瘦甜美蝴蝶结</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>75</span>
+							<span class="yuanjia">￥150</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro18.jpg" />
+						</a>
+						<p class="pro-name">裤客 女士 棉质外穿打底裤 9.5元包邮</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>9.5</span>
+							<span class="yuanjia">￥25</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					<li>
+						<a href="#" class="pro-Img">
+							<img src="images/bbs-pro19.jpg" />
+						</a>
+						<p class="pro-name">自行车多功能修理工具9.9元包邮</p>
+						<div class="price">
+							<span class="xianjia"><i>￥</i>9.9</span>
+							<span class="yuanjia">￥19.8</span>
+							<a href="#" class="qkk">去看看</a>
+						</div>
+					</li>
+					
+					
+				</ul>
+				
+				<!--广告-->
+				<a href="#" class="bbs-adv">
+					<img src="images/bbs-adv.jpg" />
+				</a>
+				
+				<!--板块-->
+				<div class="block">
+					<!--白菜汇总-->
+					<div class="block-content">
+						<p class="block-title"><i>01</i>白菜汇总</p>
+						<ul class="block-list">
+							<li>
+								<a href="#" title="天天一族元旦 “4重惊喜”等你拿">天天一族元旦 “4重惊喜”等你拿</a>
+								<i class="time">12-28</i>
+							</li>
+							
+							<li>
+								<a href="#" title="免费试用无人机，大家快去申请吧">免费试用无人机，大家快去申请吧</a>
+								<i class="time">09-14</i>
+							</li>
+							
+							<li>
+								<a href="#" title="京东原汁机OR炸锅转发赢大奖">京东原汁机OR炸锅转发赢大奖</a>
+								<i class="time">09-14</i>
+							</li>
+							
+							<li>
+								<a href="#" title="无添加系列3层中规格抽取式面纸40抽*1（随手包）1元">无添加系列3层中规格抽取式面纸40抽*1（随手包）1元</a>
+								<i class="time">08-10</i>
+							</li>
+							
+							<li>
+								<a href="#" title="京东 8月份活动汇总54个活动，等着你哦！">京东 8月份活动汇总54个活动，等着你哦！</a>
+								<i class="time">08-6</i>
+							</li>
+							
+							<li>
+								<a href="#" title="上海张小泉 中华老字号 泉新系列六件套 QD001 49.5元">上海张小泉 中华老字号 泉新系列六件套 QD001 49.5元</a>
+								<i class="time">08-6</i>
+							</li>
+							
+							<li>
+								<a href="#" title="四味珍层冰硼滴眼液（珍视明滴眼液）9.9元包邮送赠品">四味珍层冰硼滴眼液（珍视明滴眼液）9.9元包邮送赠品</a>
+								<i class="time">07-10</i>
+							</li>
+							
+							<li>
+								<a href="#" title="华中地区：5元京券 200减10 500减30 1000减60 2000减150  免费领">华中地区：5元京券 200减10 500减30 1000减60 2000减150  免费领</a>
+								<i class="time">07-01</i>
+							</li>
+							
+							<li>
+								<a href="#" title="移动端：诺丝 NOX 避孕套激情装2片 安全套 原装进口  1.9元 ...">移动端：诺丝 NOX 避孕套激情装2片 安全套 原装进口  1.9元 ...</a>
+								<i class="time">06-20</i>
+							</li>
+							
+							<li>
+								<a href="#" title="抢购：王子啤酒（PRINCE）头道麦汁啤酒330ml/听  1元">抢购：王子啤酒（PRINCE）头道麦汁啤酒330ml/听  1元</a>
+								<i class="time">06-02</i>
+							</li>
+							
+						</ul>
+					</div>
+					
+					<!--购物杂谈-->
+					<div class="block-content">
+						<p class="block-title"><i>02</i>购物杂谈</p>
+						<ul class="block-list">
+							<li>
+								<a href="#" title="商家疯了 又一波秒杀商品“新鲜”出示">商家疯了 又一波秒杀商品“新鲜”出示</a>
+								<i class="time">04-13</i>
+							</li>
+							
+							<li>
+								<a href="#" title="商家疯了 又一波秒杀商品“新鲜”出示">商家疯了 又一波秒杀商品“新鲜”出示</a>
+								<i class="time">04-12</i>
+							</li>
+							
+							<li>
+								<a href="#" title="商家疯了 又一波秒杀商品“新鲜”出示">商家疯了 又一波秒杀商品“新鲜”出示</a>
+								<i class="time">04-12</i>
+							</li>
+							
+							<li>
+								<a href="#" title="又一轮秒杀!鑫光明行每周五 秒杀频率越来越高!">又一轮秒杀!鑫光明行每周五 秒杀频率越来越高!</a>
+								<i class="time">04-07</i>
+							</li>
+							
+							<li>
+								<a href="#" title="正品上架 for example 零号男 时尚潮流男休闲裤 绝对物美价廉">正品上架 for example 零号男 时尚潮流男休闲裤 绝对物美价廉</a>
+								<i class="time">04-01</i>
+							</li>
+							
+							<li>
+								<a href="#" title="儿童睡前故事 小熊买糖果">儿童睡前故事 小熊买糖果</a>
+								<i class="time">03-26</i>
+							</li>
+							
+							<li>
+								<a href="#" title="天空没有雾霾，只有让你尖叫的福袋！还有保温杯免费送哦~">天空没有雾霾，只有让你尖叫的福袋！还有保温杯免费送哦~</a>
+								<i class="time">03-25</i>
+							</li>
+							
+							<li>
+								<a href="#" title="为什么我在京东领不了券？我的京东账号是黑号么？">为什么我在京东领不了券？我的京东账号是黑号么？</a>
+								<i class="time">03-10</i>
+							</li>
+							
+							<li>
+								<a href="#" title="教大家一个方法，99%的人都会算错，看你才智有多高！">教大家一个方法，99%的人都会算错，看你才智有多高！</a>
+								<i class="time">02-20</i>
+							</li>
+							
+							<li>
+								<a href="#" title="奇迹大接龙——作者也有你！">奇迹大接龙——作者也有你！</a>
+								<i class="time">02-01</i>
+							</li>
+							
+						</ul>
+					</div>
+					
+					<!--生活娱乐-->
+					<div class="block-content">
+						<p class="block-title"><i>03</i>生活娱乐</p>
+						<ul class="block-list">
+							<li>
+								<a href="#" title="乐高益智教育机器人成功入驻南京特许加盟展会">乐高益智教育机器人成功入驻南京特许加盟展会</a>
+								<i class="time">04-13</i>
+							</li>
+							
+							<li>
+								<a href="#" title="乐高益智">乐高益智</a>
+								<i class="time">04-12</i>
+							</li>
+							
+							<li>
+								<a href="#" title="乐高益智">乐高益智</a>
+								<i class="time">04-12</i>
+							</li>
+							
+							<li>
+								<a href="#" title="[华语] 周杰伦十二新作专辑APE【APE整轨/303M/快传】">[华语] 周杰伦十二新作专辑APE【APE整轨/303M/快传】</a>
+								<i class="time">04-07</i>
+							</li>
+							
+							<li>
+								<a href="#" title="台湾小学5年级女生怀孕 同班“小爸爸”吓哭">台湾小学5年级女生怀孕 同班“小爸爸”吓哭</a>
+								<i class="time">04-01</i>
+							</li>
+							
+							<li>
+								<a href="#" title="很多事情，它不可能永远被掩盖">很多事情，它不可能永远被掩盖</a>
+								<i class="time">03-26</i>
+							</li>
+							
+							<li>
+								<a href="#" title="吐槽第1集：夏天就要大白腿跳绳的方法">吐槽第1集：夏天就要大白腿跳绳的方法</a>
+								<i class="time">03-25</i>
+							</li>
+							
+							<li>
+								<a href="#" title="内涵神评论：发现嫂子和一猥琐男抱在一起，怎么办？">内涵神评论：发现嫂子和一猥琐男抱在一起，怎么办？</a>
+								<i class="time">03-10</i>
+							</li>
+							
+							<li>
+								<a href="#" title="日本的女生夏天这么穿">日本的女生夏天这么穿</a>
+								<i class="time">02-20</i>
+							</li>
+							
+							<li>
+								<a href="#" title="十万个冷知识 7月15 日本有一种自定义AV服务！">十万个冷知识 7月15 日本有一种自定义AV服务！</a>
+								<i class="time">02-01</i>
+							</li>
+							
+						</ul>
+					</div>
+					
+					
+				</div>
+				
+				<!--返利网论坛-->
+				<div class="forum">
+					<p class="forum-title">
+						返利网论坛
+						<a href="#" class="more">+更多</a>
+					</p>
+					
+					<ul class="forum-list">
+						<li>
+							<a href="#" class="listNum">1</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									白菜汇总
+									<span class="postNum">（帖子数 <i>120</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.汇集各种羊毛，撸大白菜</p>
+									<p>2.涵盖生活各种白菜之品</p>
+								</div>
+							</div>
+						</li>
+						
+						<li>
+							<a href="#" class="listNum">2</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									购物杂谈
+									<span class="postNum">（帖子数 <i>442</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.各种购物交流、求助</p>
+									<p>2.网友出售交易平台</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">3</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									生活娱乐
+									<span class="postNum">（帖子数 <i>1995</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.涉及购物技巧交流及求助</p>
+									<p>2.轻松之余可以看看新闻</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">4</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									真实晒单
+									<span class="postNum">（帖子数 <i>99</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.用户购买商品真实的晒单</p>
+									<p>2.用户真人自拍晒商品</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">5</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									站务公告
+									<span class="postNum">（帖子数 <i>235</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.站务公告处</p>
+									<p>2.违规处理通告处</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">6</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									站务交流
+									<span class="postNum">（帖子数 <i>6</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.版主管理论坛区</p>
+									<p>2.站务管理学习交流区</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">7</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									意见反馈
+									<span class="postNum">（帖子数 <i>201</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.会员意见反馈区，如果您有好的建议和想法可在此处向我们提出您的宝贵意见</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">8</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									淘宝专栏
+									<span class="postNum">（帖子数 <i>442</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.分享各种白菜商品</p>
+									<p>2.讨论淘宝更省钱的技巧</p>
+								</div>
+							</div>
+						</li>
+					
+						<li>
+							<a href="#" class="listNum">9</a>
+							<div class="forum-info">
+								<p class="forum-name">
+									拍拍专栏
+									<span class="postNum">（帖子数 <i>27</i>）</span>
+								</p>
+								<div class="tiezi-list">
+									<p>1.分享拍拍白菜商品</p>
+									<p>2.讨论拍拍更省钱的技巧</p>
+								</div>
+							</div>
+						</li>
+					
+					</ul>
+				</div>
+				
+				<!--友情链接-->
+				<div class="friend-link">
+					<p>友情链接</p>
+					<div class="link-list">
+						<a href="#">京东返利网</a> 
+						<a href="#">欧洲自由行</a> 
+						<a href="#">交友平台</a> 
+						<a href="#">购酒网站</a> 
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!--内容结束-->
+		
+		<!--底部开始-->
+		<footer id="bottom">
+			<div class="bottom-wrap">
+				<div class="bottom-left">
+					<p class="zdxx">站点信息</p>
+					<div class="bottom-info">
+						<a href="#">小黑屋</a>
+						|
+						<a href="#">手机版</a>
+						|
+						<span>返利网论坛</span>
+						<b>蜀ICP备12029109号-1</b>
+						<img src="images/security.png" class="security"/>
+						<b>网站统计</b>
+					</div>
+					<p class="copy-right">Powered by Discuz! X3.2 © 2001-2013 Comsenz Inc.</p>
+				</div>
+				<div class="bottom-right">
+					<img src="images/ftlogo.png" />
+				</div>
+				
+				
+			</div>
+		</footer>
+		<!--底部结束-->
+		
+		
+		
+	</body>
+</html>

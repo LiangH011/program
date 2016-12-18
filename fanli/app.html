@@ -1,0 +1,131 @@
+!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>一起惠APP</title>
+		<!--<link rel="stylesheet" type="text/css" href="css/comm.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/app.css"/>
+		
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--回到顶部开始-->
+		<div id="comm-service" title="在线客服"></div>
+		<div id="comm-gotop" title="回到顶部"></div>
+		<!--回到顶部结束-->
+		
+		<!--头部开始-->
+		<header id="header">
+			<!--轮播开始-->
+			<div id="comm-carousel">
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<div class="carou-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="close">&times;</div>
+			</div>
+			<!--轮播结束-->
+			
+			<!--引入导航-->
+			<div id="headerNav">
+				<script>
+					$(function(){
+						$("#headerNav").load("nav.html");
+					})
+				</script>
+			</div>
+			
+			<!--导航结束-->
+			
+			<!--logo和搜索部分开始-->
+			<div class="logoBar">
+				<div class="logo"><a href="index.html"><img src="images/logo.png" /></a> </div>
+				<div class="top-searchBox">
+					<form action="" id="top-form">
+						<input type="text" placeholder="请输入商城商品地址或淘宝商品名称开始购物！"  class="top-Input"/>
+						<input type="button" class="top-btnSub" />
+					</form>
+				</div>
+			</div>
+			<!--logo和搜索部分结束-->
+			
+			<!--导航菜单开始-->
+			<div class="header-menu">
+				<div class="headerMenu-wrap">
+					<ul class="headerMenu-list1">
+						<li><a href="index.html" >首页</a></li>
+						<li><a href="mallRebate.html">商城返利</a></li>
+						<li><a href="tbRebate.html">淘宝返利</a></li>
+						<li><a href="baoliao.html">爆料平台</a></li>
+						<li><a href="super.html">超级返</a></li>
+						<li><a href="zhushou.html">购物助手</a></li>
+						<li><a href="app.html"style="color:#fff;background: #FF8400;">一起惠APP<img src="images/header-newIco.gif"/></a></li>
+						<li><a href="user.html">会员中心</a></li>
+					</ul>
+					<div class="headerMenu-list2">
+						<img src="images/headerMenu-1.jpg"/>
+						<a href="#"><img src="images/headerMenu-2.gif"/></a>
+					</div>
+				</div>
+			</div>
+			<!--导航菜单结束-->
+			
+		</header>
+		<!--头部结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<div class="content-wrap">
+				<div class="mainleft">
+					<span class="people"><i class="phone"></i></span>
+					<span class="hand"></span>
+				</div>
+				<div class="mainright">
+					<div class="appName"></div>
+					<div class="appCoad">
+						<div class="coad-img">
+							<P>手机扫码直接下载</P>
+							<img src="images/yqh_app_code.png" />
+						</div>
+						<div class="appDown">
+							<a href="#" class="android">立即下载  <i></i></a>
+							<a href="#" class="iphone">立即下载  <i></i></a>
+						</div>
+						
+					</div>
+					
+				</div>
+				
+				
+			</div>
+		</div>
+		<!--内容结束-->
+		<!--引入底部-->
+		<footer id="bottom">
+			<script >
+				$(function(){
+					$("#bottom").load("footer.html");
+				})
+			</script>
+			
+		</footer>
+		
+		
+	</body>
+</html>

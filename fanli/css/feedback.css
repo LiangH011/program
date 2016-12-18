@@ -1,0 +1,47 @@
+/*引入公共样式*/
+@charset "utf-8";
+@import url("comm.css");
+
+/*内容*/
+#top{width: 100%;overflow: hidden;}
+.content{width: 100%;overflow: hidden;background: #fff;padding-bottom: 150px;}
+.content-wrap{width:1200px;margin: 0 auto;padding: 20px 0;}
+
+/*产品分类导航--左*/
+.feed-content{width:70%;height: auto;overflow: hidden;float: left;}
+.feed-title{width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #E3E3E3;}
+.feed-title span{display: block;height: 50px;line-height: 50px;border-bottom: 1px solid #ff6600;color: #666;font-size: 16px;float: left;}
+.feed-title i{display: block;float: right;width: 260px;height: 24px;background: url(../images/yijianfankui_03.png) no-repeat center;margin-top: 15px;}
+
+
+.feed-menu{width: 100%;height: auto;overflow: hidden;}
+.sel-type{width: 100%;height: 40px;line-height: 40px;font-size: 14px;color: #666;margin: 20px 0;}
+.sel-type label{margin-right: 20px;}
+.sel-type  input{margin-right: 5px;display: inline-block;}
+.advice-input{width: 100%;height: auto;overflow: hidden;}
+.advice-input{width: 100%;height: auto;overflow: hidden;margin: 20px 0;}
+.advice-input span{display: block;float: left;height: 30px;line-height: 30px;color: #333;font-size: 14px;}
+.advice-input .jianyiTxt{display: block;float: left;margin-left: 10px;width:500px;height: 120px;color: #999;border: 1px solid #E3E3E3;
+	outline: none;border-radius: 5px;padding-left: 10px;padding-top: 10px;line-height: 30px;resize: none;  }
+.addr{width: 100%;height: 35px;}	
+.addr span{display: block;float: left;height: 30px;line-height: 30px;color: #333;font-size: 14px;}
+.addr .mail{display: block;float: left;margin-left: 10px;width:400px;height:30px;line-height: 30px;color: #999;border: 1px solid #E3E3E3;
+	outline: none;border-radius: 5px;padding-left: 10px;}
+
+.feed-btn{display: block;width:120px;height: 40px;line-height: 40px;text-align: center;color: #fff;background: #FF9900;margin-left:82px;margin-top: 20px;
+	border: none;outline: none;border-radius: 5px;font-size: 16px;}
+
+
+
+/*新闻--右*/
+.news-wrap{float: right;height: 240px; border: 1px solid #ebebeb;width: 320px;background: #fff;}
+.news-wrap .news-header{width: 320px;height:40px;border-bottom:1px solid #ebebeb;background: #fff;}
+.news-wrap .news-header li{width: 54px;height: 40px; float: left;text-align: center;cursor: pointer;font-size: 14px;}
+.news-wrap  .news-header li a{width: 54px;height: 40px;line-height: 40px; display: block;color: #666;}
+.news-wrap .news-header li .newsStyle{color: #FF8400;border-bottom: 1px solid #FF8400;}
+.news-conten{width: 1000%;height: 185px;overflow: hidden;}
+.news-conten .newsInfo{width: 310px;height: 220px; float: left;padding: 0 5px;}
+.news-conten .newsInfo  li{background:url(../images/circle-ico.png) no-repeat 0px 13px;font-size: 12px;}
+.news-conten .newsInfo  li a{display: block;width: 94%;padding-left: 6%;font-size: 12px;height: 36px;line-height: 36px;color: #666;}
+.news-conten .newsInfo  li a span{display:block;float: right; color: #999;}
+.news-conten .newsInfo  li a:hover{color: #FF8400;}

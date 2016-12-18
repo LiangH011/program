@@ -1,0 +1,52 @@
+/*引入公共样式*/
+@charset "utf-8";
+@import url("comm.css");
+
+/*内容*/
+#top{width: 100%;overflow: hidden;}
+.content{width: 100%;overflow: hidden;background: #fff;}
+.content-wrap{width:1200px;margin: 0 auto;}
+
+
+
+.mian-quan{width: 100%; height:auto;margin: 20px 0;padding-bottom: 20px;overflow: hidden;border:1px solid #eee;background: #fff;}
+.mian-quan .mainquan-nav{height: 40px;width: 100%;border-bottom: 1px solid #eee;background: #FAFAFA;}
+.mian-quan .mainquan-nav li{float: left; width: 8.25%; height: 40px;line-height: 40px;text-align: center; border-right:1px solid #eee;color: #666;
+	cursor: pointer;font-size: 14px;padding-left: 10px;}
+.mian-quan .mainquan-nav li a{color: #00b98d;display: block;width: 100%;height: 100%;}
+.mian-quan .mainquan-nav li:hover a{color:#fe7e4c;}
+
+.mainquan-nav li:nth-child(1) a{background: url(../images/iconfont-remen.png) no-repeat 0px center;}
+.mainquan-nav li:nth-child(2) a{background: url(../images/iconfont-shangpin.png) no-repeat 0px center;}
+.mainquan-nav li:nth-child(3) a{background: url(../images/iconfont-gold.png) no-repeat 0px center;}
+.mainquan-nav li:nth-child(4) a{background: url(../images/iconfont-chongzhi.png) no-repeat 0px center;}
+.mainquan-nav li:nth-child(5) a{background: url(../images/iconfont-youhuiquan.png) no-repeat 0px center;}
+
+.mainquan-list{width: 100%;height: auto;overflow: hidden;padding: 20px 0;}
+.mainquan-list li{width: 25%;margin:10px 6% 5px 2%;height: 160px;float: left;}
+.mainquan-list .mall-name{width: 100%;height:25px;line-height: 25px;color: #0099FF;font-size: 14px;display: block;margin-bottom: 5px;}
+.mainquan-list a:hover{color: #FF3333;}
+.mainquan-list .quan-info{width: 100%;height: 85px;border: 1px solid #f1f1f1;cursor: default;}
+.mainquan-list .quan-img{display: block;float: left;width:100px;height: 85px;}
+.mainquan-list .quan-img img{max-width:100%;height: 85px;display: block;margin: 0 auto; display: block;}
+.mainquan-list .jianman{width: 110px;height: 85px;background: #faf7ec;float: left;}
+.mainquan-list .huibi{display: block; width: 90%;padding-left: 10%; height: 27px;border-bottom: 1px dotted #e4e4e4;line-height: 27px;color: #666;font-size: 12px;}
+.mainquan-list .jiner{display: block; width: 90%;padding-left: 10%;height: 27px;border-bottom: 1px dotted #e4e4e4; line-height: 27px;color: #666;font-size: 12px;}
+.mainquan-list .huibi i{color:#FF3333;}
+.mainquan-list .jiner i{color:#FF3333;}
+.mainquan-list .haisheng {color:#00b98d;font-size:12px;padding-left: 10%;width: 90%;padding-left: 10%;height: 27px;line-height: 27px;}
+.mainquan-list .ljdh{display: block;float: left;width: 90px;height: 85px;background: url(../images/ljdh.png) no-repeat center;}
+.mainquan-list .quan-info:hover{border: 1px dashed #fe7e4c;}
+.mainquan-list .quan-info:hover .ljdh{background: url(../images/ljdh1.png) no-repeat center;}
+
+
+.mian-quan .page{width: 100%;height:40px;margin-top: 15px;margin-bottom: 10px;}
+.mian-quan .page a{display: inline-block;padding: 10px 20px;color: #666;background: #f7f7f7;margin: 0px 10px;border-radius: 5px;font-size: 16px;}
+.mian-quan .page a:hover{color: #fff;background:#00b98d;}
+
+
+
+
+
+
+

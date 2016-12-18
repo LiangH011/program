@@ -1,0 +1,49 @@
+/*引入公共样式*/
+@charset "utf-8";
+@import url("comm.css");
+
+/*内容*/
+.content{width: 100%;overflow: hidden;background: #fff9f1;}
+.content-wrap{width:1200px;margin: 0 auto;}
+
+.current-position{width: 100%;height: 44px;margin-top: 10px;border-bottom: 1px solid #eee;line-height: 44px;}
+.main-nav{width: 100%;overflow: hidden;margin-top: 15px;}
+.mainNav-left{width: 10%;overflow: hidden;height: auto;border: 1px solid #eee;float: left;}
+.mainNav-left ul{width: 100%;height: auto;background: #fff;}
+.mainNav-left li{width: 100%;height:45px;text-align: center;}
+.mainNav-left li a{display: block;width: 100%;height: 43px;line-height: 43px;  color: #666;font-size: 14px;border-top: 1px solid #fff;border-bottom: 1px solid #fff;}
+.mainNav-left li:hover a{color: #ff6600;background:#fafafa;border-top: 1px solid #eee;border-bottom: 1px solid #eee;}
+
+.mainNav-right{width: 85%;overflow: hidden;height: auto;border: 1px solid #eee;float: right;}
+.mainNav-right .search-header{width: 98%;padding:0 1%; height: 44px;border-bottom: 1px solid #eee;line-height: 44px;color: #666;font-size: 14px;background: #fafafa;}
+.search-header .zimu{float: left;}
+.zimu a{display:inline-block;margin: 0 2px;color: #666;}
+.zimu a:hover{text-decoration: underline;color: #FF6600;}
+
+.search-header .search-input{width:270px;height: 30px;float: right;margin-top: 7px;}
+.search-input .search-mall{display: block;float: left;border: 1px solid #eee;width: 188px;height: 28px;outline: none;color: #666;padding-left: 5px;}
+.search-input .searMall-btn{display: block;float: right;width: 60px;height: 30px;outline: none;color: #666;border: none;background: #ff9900;text-align: center;line-height: 30px;color: #fff;}
+
+.search-content{width: 100%;height: auto;overflow: hidden;background: #fff;}
+.search-content ul{width: 100%;height:510px;overflow: hidden;padding-top: 10px;}
+.search-content ul li{width: 16%;margin:3px 0.3%;background: #fafafa;height:120px;position: relative;cursor: pointer;float: left;}
+.search-content ul li .liContent{width: 100%;height:120px;}
+.liContent .mall-img{display: block;width: 100%;height:65px;margin:0 auto;padding-top: 10px;}
+.liContent img{display: block;max-width: 100%;max-height:65px;margin: 10px auto;}
+.liContent p{color: #666;font-size: 16px;text-align: center;}
+.liContent p span{color: #FF6600;text-align: center;}
+
+.search-content  .search-hover{width: 100%;height:120px;position: absolute;top: 0;left: 0;display:none;z-index: 999;}
+.search-hover .mall{width: 100% ;height: 40px; color: #fff;background: rgba(0,0,0,0.8);text-align: center;line-height: 40px;font-size: 18px;}
+.search-hover .zgfl{width: 100% ;height: 40px; color: #fff;background: rgba(0,0,0,0.7);text-align: center;line-height: 40px;font-size: 14px;}
+.search-hover .zgfl span{color: #FF6600;}
+.search-hover .lookInfo{width: 100%;height: 40px;background: #fff;}
+.lookInfo .ckxq{display: block;width: 33%;float: left;height: 40px;color: #fff;background:#FA613A url(../images/fdj-ico.png)no-repeat 3px 11px;padding-left: 25px;line-height: 40px;font-size: 14px;}
+.lookInfo .goshop{display: block;width: 33%;float: right;height: 40px;color: #fff;background:#F77C02 url(../images/cart-ico.png)no-repeat 3px 11px;padding-left: 25px;line-height: 40px;font-size: 14px;}
+.search-content ul li:hover .search-hover{display: block;}
+.search-content .page{width: 100%;text-align: center;height:40px;margin-top: 15px;margin-bottom: 10px;}
+.search-content .page a{display: inline-block;padding: 10px 20px;color: #666;background: #f7f7f7;margin: 0px 10px;border-radius: 5px;font-size: 16px;}
+.search-content .page a:hover{color: #fff;background:#00b98d;}
+
+.mall-banner{width: 100%;height: auto;overflow: hidden;text-align: center;margin: 20px 0;}
+/*.search-content .mall-banner img{width: 1024px;height: auto;margin: 10px auto;}*/

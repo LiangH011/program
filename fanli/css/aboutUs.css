@@ -1,0 +1,27 @@
+/*引入公共样式*/
+@charset "utf-8";
+@import url("comm.css");
+
+/*内容*/
+.content{width: 100%;overflow: hidden;background: #fff;}
+.content-wrap{width:1200px;margin: 0 auto;}
+.current-position{width: 100%;height: 44px;margin-top: 10px;line-height: 44px;}
+
+
+.main{width: 100%;height: auto;border: 1px solid #e3e3e3;overflow: hidden;}
+
+.main-left{width:209;float: left;height: auto;overflow: hidden;background: url(../images/left_bg.gif) repeat-y;padding-left: 10px;padding-top: 10px;}
+.main-left .main-title{font-size:20px;color: #000;width: 92%;padding-left: 8%;display: block;height: 40px;line-height: 40px;margin-bottom: 20px;font-weight: bold;}
+.mainleft-list{width: 209px;float: right;height: auto;overflow: hidden;}
+.mainleft-list li{width: 209px;height:41px;}
+.mainleft-list li a{width: 189px;height:41px;line-height: 41px;padding-left: 20px;color: #666;display: block;font-size: 14px;}
+.mainleft-list li:hover a{color: #ff681f;background: url(../images/left_libg.gif) no-repeat;}
+
+.main-right{width: 70%;padding-top: 10px;float: left;margin-left: 30px;margin-bottom: 20px;}
+.main-right .main-title{font-size:20px;color: #000;width: 100%;display: block;height: 40px;line-height: 40px;margin-bottom: 20px;font-weight: bold;}
+.main-right .about-wrap .company{margin-top: 5px;margin-bottom: 10px;text-indent: 2em;}
+.main-right  span{display:block;width: 100%;line-height: 22px;color: #000;font-weight: bold;font-size: 10px;}
+.main-right  p{display:block;width: 100%;line-height: 40px;color: #333;font-size: 12px;text-indent: 2em;}
+.main-right  img{display: block;width: 200px;height: 53px;margin: 20px 0;}
+.main-right .service{margin: 20px 0;}
+.main-right .offical{margin-top: 50px;padding-bottom: 100PX;}

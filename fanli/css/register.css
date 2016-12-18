@@ -1,0 +1,57 @@
+/*引入公共样式*/
+@charset "utf-8";
+@import url("comm.css");
+
+/*注册*/
+.header{width: 100%;height: 80px;background: #fff;}
+.top{width: 1200px;height: 60px;margin:0 auto;line-height: 60px;padding: 5px 0;}
+.top .logo{width: 200px;height:60px;display: block;float: left;margin-left: 100px;}
+.top .logo img{width: 200px;height:60px;display: block;}
+.top .welcome{float: left;margin-left: 10px;width: 106px;height: 60px;background: url(../images/welcome_register.gif) no-repeat center;display: block;}
+.top .hyqy{color: #666;float: right;font-size: 16px;margin-right: 100px;}
+.top .hyqy:hover{color: #ff5742;}
+
+/*内容*/
+.content{width: 100%;height:auto;overflow: hidden;background:#f6f6f6;}
+.main{width: 965px;height: auto;overflow: hidden;background: #fff;border-radius: 2px;padding:30px 30px;margin: 20px auto;margin-top: 20px;}
+.main .regi-title{width: 100%;line-height: 30px;color: #ff2f3f;font-size: 18px;margin-bottom: 30px;}
+
+.regi-left{width: 500px;float: left;margin-top: 30px;margin-left: 30px;}
+#regi-form>div{margin-bottom: 20px; width: 500px;height: 42px;}
+#regi-form>div span{font-size: 18px;color: #666;display: block;float: left;width: 100px;height: 42px;line-height: 42px;text-align: right;}
+#regi-form>div .txt{width:383px;height: 40px;border: 1px solid #ccc;border-radius: 3px; background: #fff;color: #999;float: left;margin-left: 10px;}
+#regi-form .regi-icon{display: inline-block;width:22px;height: 22px;position: relative;top: 6px;left: 8px;  background: url(../images/iconfont-login_register.png) no-repeat;
+	-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;}
+#regi-form .txt input{display: inline-block;width: 340px;height: 40px;border: none;outline: none;color: #333;font-size: 12px;padding-left: 15px;}
+
+#regi-form i.name-ico{background-position: 0px 0px;}
+#regi-form i.pwd-ico{background-position: 0px -49px;}
+#regi-form i.qq-ico{background-position: 0px -93px;}
+#regi-form i.mail-ico{background-position: 0px -138px;}
+#regi-form i.yzm-ico{background-position: 0px -181px;}
+
+
+
+#regi-form .yzmtxt{width:165px;height: 40px;border: 1px solid #ccc;border-radius: 3px; background: #fff;color: #999;float: left;margin-left: 10px;}
+#regi-form .yzmtxt input{display: inline-block;width: 124px;height: 40px;border: none;outline: none;color: #333;font-size: 12px;padding-left: 15px;}
+#regi-form .yzm{display: block;float: left;margin-left: 10px;height: 40px;width: 200px!important;line-height: 40px;color: #999;font-size: 12px!important;display: block;}
+#regi-form .yzm b{font-weight: normal;width: 60px;display: inline-block;text-align: center;cursor: pointer;}
+
+.protocol{width:385px!important;line-height: 30px;hyphenate-limit-lines: 30px;color: #666;font-size: 12px;margin-left: 112px;}
+.protocol input{color: #ccc;}
+.protocol a{color: #333;}
+
+.register-btn{display: block;margin-bottom: 20px;width:320px;height: 47px;margin-left: 112px;background:#ff8212 ; border: none;outline: none;  border-bottom: 3px solid #e77e25;color: #fff;font-size: 20px;line-height: 47px;}
+.register-btn:hover{background: #f47c10;}
+
+#regi-form>div>div{position: relative;}
+.erroTip{width:190px;text-align: center; height: 30px;line-height: 30px; color: #fff;background: #FF3333;position: absolute;top:5px;left:394px;display: none;z-index: 333;}
+
+.regi-right{width: 160px;height: auto;overflow: hidden;float: right;margin-right: 100px;margin-top: 20px;}
+.regi-right p{color: #666;font-size:18px;line-height: 30px;}
+.regi-right .bzzh{display: block;width: 160px;height: 40px;line-height: 40px;text-align: center;background:#ff9f2d url(../images/iconfont-yqh_login.png) no-repeat 10px 8px;
+	margin: 20px 0;color: #fff;border-radius: 3px;font-size: 14px;}
+.regi-right .qqzh{display: block;width: 160px;height: 40px;line-height: 40px;text-align: center;background:#ff424f url(../images/iconfont-qq_login.png) no-repeat 10px 8px;
+	color: #fff;border-radius: 3px;font-size: 14px;}
+.bzzh:hover{background-color: #FF9615;}
+.qqzh:hover{background-color: #FF2F3F;}
